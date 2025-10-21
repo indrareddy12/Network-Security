@@ -3,9 +3,9 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
-variable "model_bucket_name" {
+variable "pred_data_bucket_name" {
   type    = string
-  default = "network-model"
+  default = "network-datasource"
 }
 
 variable "aws_account_id" {
